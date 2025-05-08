@@ -12,8 +12,8 @@ import { Vacancy } from "../entity/Vacancy";
 import { DataSource } from "typeorm";
 
 export const DbContext = new DataSource({
-    type:"sqlite",
-    database:"db.sqlite",
+    type:'sqlite',
+    database:'db.sqlite',
     synchronize:true,
     logging:true,
     entities:[

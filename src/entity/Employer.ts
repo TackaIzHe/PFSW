@@ -10,6 +10,9 @@ export class Employer{
     name!:string
 
     @Column()
+    img!:string
+
+    @Column()
     tel!:number
 
     @Column()

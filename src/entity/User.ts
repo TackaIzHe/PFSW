@@ -7,6 +7,9 @@ export class User{
     id!:number
 
     @Column()
+    img!:string
+    
+    @Column()
     name!:string
 
     @Column()
